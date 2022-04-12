@@ -12,7 +12,7 @@ def countpatterninfile():
         foundList = re.findall(regular_expression, line)
         if (len(foundList) > 0) :
             countOfMatchingLines = countOfMatchingLines + 1
-    print(fileName, 'had', countOfMatchingLines, 'lines that matched', regular_expression)
+    print('mbox.txt had', countOfMatchingLines, 'lines that matched', regular_expression)
 
 
 if __name__ == '__main__':
